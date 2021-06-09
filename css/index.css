@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700';);
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* #header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    
+} */
