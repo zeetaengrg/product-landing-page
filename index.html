@@ -22,22 +22,19 @@
             </div>
             <nav id="nav-bar">
                 <ul class="nav-list">
-                    <li class="nav-link"><a href="#features" rel="nopener noreferrer">Features</a></li>
-                    <li class="nav-link"><a href="#how-it-works" rel="nopener noreferrer">How It Works</a></li>
-                    <li class="nav-link"><a href="#pricing" rel="nopener noreferrer">Pricing</a></li>
+                    <li class="nav-link"><a href="#features" >Features</a></li>
+                    <li class="nav-link"><a href="#how-it-works" >How It Works</a></li>
+                    <li class="nav-link"><a href="#pricing" >Pricing</a></li>
                 </ul>
             </nav>
         </header>
     </div>
 
-    <div>
-        <h2 class="title">Handcrafted, home-made masterpieces</h2>
-    </div>
-
-    <section id="head">
-        <form action="" id="form" action="https://www.freecodecamp.com/email-submit)" >
-            <div class="form-box">
-                <label for="form">
+    <section id="title-area">
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <div>
+                <label for="form" class="form-box">
                     <input id="email" name="email" type="email" email="https://www.freecodecamp.org/email-submit" placeholder="Enter your email address"  data-tooltip="Please fill in this field" required>
                 </label>
             </div>            
@@ -45,56 +42,65 @@
         </form>
     </section>
 
-    <section id="features">
-        <div class="features-grid">
-            <div class="features-icon">
-                <i class="fa fa-3x fa-fire"></i>
+    <div class="container">
+        <section id="features">
+            <div class="features-grid">
+                <div class="features-icon">
+                    <i class="fa fa-3x fa-fire"></i>
+                </div>
+                <div class="description">
+                    <h2>
+                        Premium Materials
+                    </h2>
+                    <p>
+                        Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+                    </p>
+                </div>
             </div>
-            <div class="description">
-                <h2>
-                    Premium Materials
-                </h2>
-                <p>
-                    Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
-                </p>
-            </div>
-        </div>
 
-        <div class="features-grid">
-            <div class="features-icon">
-                <i class="fa fa-3x fa-truck"></i>
+            <div class="features-grid">
+                <div class="features-icon">
+                    <i class="fa fa-3x fa-truck"></i>
+                </div>
+                <div class="description">
+                    <h2>
+                        Fast Shipping
+                    </h2>
+                    <p>
+                        We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+                    </p>
+                </div>
             </div>
-            <div class="description">
-                <h2>
-                    Fast Shipping
-                </h2>
-                <p>
-                    We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
-                </p>
-            </div>
-        </div>
 
-        <div class="features-grid">
-            <div class="features-icon">
-                <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            <div class="features-grid">
+                <div class="features-icon">
+                    <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+                </div>
+                <div class="description">
+                    <h2>
+                        Quality Assurance
+                    </h2>
+                    <p>
+                        For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+                    </p>
+                </div>
             </div>
-            <div class="description">
-                <h2>
-                    Quality Assurance
-                </h2>
-                <p>
-                    For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
-                </p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <section id="how-it-works">
-        <iframe src=""https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"" frameborder="0" id="video" height="300" allowfullscreen></iframe>
+        <iframe
+            id="video"
+            height="345"
+            width="420"
+            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
     </section>
 
     <section id="pricing">
-        <div class="product-box" id="tenor">
+        <div class="product-box">
             <div class="product-name">
                 Tenor Trombone
             </div>
@@ -112,7 +118,7 @@
             </button>
         </div>
 
-        <div class="product-box" id="brass">
+        <div class="product-box">
             <div class="product-name">
                 Brass Trombone
             </div>
@@ -130,7 +136,7 @@
             </button>
         </div>
 
-        <div class="product-box" id="valve">
+        <div class="product-box">
             <div class="product-name">
                 Valve Trombone
             </div>
@@ -143,25 +149,19 @@
                 <li>Lorem ipsum dolor.</li>
                 <li>Lorem ipsum</li>
             </ol>
-            <button class="brn">
+            <button class="btn">
                 Select
             </button>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="footer-link">
             <ul>
                 <li><a href="#privacy">Privacy</a></li>
                 <li><a href="#terms">Terms</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
-        <div class="copyright">
-            <p class="copyright-title">
-                Copyright 2021, Original Trombones
-            </p>
-        </div>
+            <span>Copyright 2021, Original Trombones</span>
     </footer>
 
 </body>
